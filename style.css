@@ -109,10 +109,11 @@ body {
   position: absolute;
   top: 0;
   left: 20px;
+  opacity: 0;
   width: calc(100% - 40px);
   padding: 10px 10px 10px 150px;
   transform: translateY(0%);
-  transition: transform 0.3s ease in, opacity 0.3 ease-in;
+  transition: transform 0.3s ease-in, opacity 0.3 ease-in;
   z-index: 0;
 }
 
